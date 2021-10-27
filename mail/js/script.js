@@ -8,7 +8,7 @@ const richiesta =document.getElementById("in");
 const usMail = prompt("Inserire un e-mail. Ex:nome.cognome@gmail.com");
 console.log(usMail);
 // lista email acconsentite
-let mail =["christopher.zito@gmail.com", "manuel.zito@gmail.com","maicol.zito@gmail.com", "patrick.zito@gmail.com","sharon.zito@gmail.com"];
+let mail =["christopher.zito@gmail.com", "manuel.zito@gmail.com","maicol.zito@gmail.com","pinco.zito@gmail.com","pallino.zito@gmail.com", "patrick.zito@gmail.com","sharon.zito@gmail.com"];
 // confronto tra richiesta e lista
 // accesso o rifiutato
 
