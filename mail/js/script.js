@@ -11,17 +11,15 @@ console.log(usMail);
 let mail =["christopher.zito@gmail.com", "manuel.zito@gmail.com","maicol.zito@gmail.com","pinco.zito@gmail.com","pallino.zito@gmail.com", "patrick.zito@gmail.com","sharon.zito@gmail.com"];
 // confronto tra richiesta e lista
 // accesso o rifiutato
-
-for(let i = 0; i < mail.length ;i++ ){
-    console.log("l'elamil da confrontare è: " + mail[i]);
+let trov = false;
+for(let i = 0; (i < mail.length) && (trov == false);i++ ){
+    console.log("l'email da confrontare è: " + mail[i]);
     console.log("email registrate : " + mail.length);
     if (mail[i] == usMail){
+        trov = true;
         richiesta.innerHTML = "benvenuto"
-        i = mail.length;
     }else {
         richiesta.innerHTML = "email non registrata"
     }
-    
-    
 }; 
 
